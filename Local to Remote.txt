@@ -1,0 +1,7 @@
+git init                              // init git local at your project
+git remote add origin <your_git_repo_ulr>   // link your git local to git online
+git remote -v                        // verify whether a new remote is created
+git status                                // verify the branch you are standing, as usually is "master"
+git add .                            // stage all current files in your project
+git commit -m "Fist commit"               // commit all staged files with message
+git push origin master              // push your commit to reposity
