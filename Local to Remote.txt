@@ -1,7 +1,3 @@
-               Git Version Control
-___________________________________________________
-
-
 git init                              // init git local at your project
 git remote add origin <your_git_repo_ulr>   // link your git local to git online
 git remote -v                        // verify whether a new remote is created
