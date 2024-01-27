@@ -21,4 +21,28 @@ git log --oneline
 -------------------
 
 
+// Checkout
+-------------------
+git checkout 'paste the log file id'         
+-------------------
+
+// Checkout master
+-------------------
+git checkout master                         
+-------------------
+
+// Revert
+-------------------
+git revert 'paste the log file id'          // Revert editor Show Then, Shift + : and wq Press Enter to Quit
+-------------------                         // Revert on the top ...
+
+// Reset
+-------------------
+git reset 'paste the log file id'           // Reset 
+-------------------                         // Still not committed
+
+-------------------
+git reset 'paste the log file id' --hard    // Reset committed ...
+------------------- 
+                                           
 
